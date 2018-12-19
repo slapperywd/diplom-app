@@ -52,7 +52,7 @@ export default class MainNavbar extends React.Component {
                     Настройки
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
+                  <DropdownItem href="/login">
                     Выйти
                   </DropdownItem>
                 </DropdownMenu>
