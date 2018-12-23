@@ -11,3 +11,6 @@ nav.navbar {
 #exampleSearch {
   margin-top: 10px;
 }
+#deleteTestrun{
+  float: right;
+}

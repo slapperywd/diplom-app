@@ -22,7 +22,7 @@ class DeleteTestrunModal extends React.Component {
 
       return (
       <div>
-        <Button color="danger" onClick={this.toggle}>Удалить группу</Button>
+        <Button outline color="danger" id="deleteTestrun" onClick={this.toggle}>Удалить группу</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle} close={closeBtn}>Удалить группу</ModalHeader>
           <ModalBody>

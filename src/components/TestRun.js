@@ -7,6 +7,7 @@ import deleteIcon from '../icons/delete-icon.png';
 import runIcon from '../icons/run-icon.png';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import DeleteTestrunModal from './DeleteTestrunModal'
+import AddTestRunModal from './AddTestrunModal'
 
 class TestRun extends Component {
     render() {
@@ -18,7 +19,17 @@ class TestRun extends Component {
                     <Breadcrumb>
                         <BreadcrumbItem><a href="/">Тест группы</a></BreadcrumbItem>
                     </Breadcrumb>
-                    <DeleteTestrunModal/>
+                    <div class="row">
+                        <div class="col-sm">
+                            <AddTestRunModal />
+                        </div>
+                        <div class="col-sm">
+                       
+                        </div>
+                        <div class="col-sm">
+                            <DeleteTestrunModal />
+                        </div>
+                    </div>
                     <Table>
                         <thead>
                             <tr>
